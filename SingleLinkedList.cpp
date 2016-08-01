@@ -43,5 +43,7 @@ void input (int dt)
 void cetak()
 {
 	curr = head;
-
+	if(head == NULL)
+	cout<<"\nTidak ada data dalam linked list" <<endl;
+	
 }
