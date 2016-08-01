@@ -120,3 +120,11 @@ void menu()
       	cin>>ulang;
       	}while(ulang=='y' || ulang=='Y');
 }
+
+
+int main() {
+	inisialisasi();
+	menu();
+	
+	return EXIT_SUCCESS;
+}
