@@ -22,3 +22,5 @@ void inisialisasi ()
 	head = NULL;
 	tail = NULL;
 }
+
+void input (int dt)
