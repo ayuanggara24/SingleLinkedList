@@ -19,5 +19,6 @@ node* del;
 
 void inisialisasi ()
 {
-
+	head = NULL;
+	tail = NULL;
 }
