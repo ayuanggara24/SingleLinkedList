@@ -11,9 +11,13 @@ struct node {
 	node* next; // untuk menghubungkan dengan node lain,tipe data dibuat seperti aturan penggunaan pointer
 };
 
-
 node* head;
 node* tail;
 node* curr;
 node* entry;
 node* del;
+
+void inisialisasi ()
+{
+
+}
