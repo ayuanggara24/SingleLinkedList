@@ -77,3 +77,12 @@ void hapus()
 		delete del;
 	}
 }
+
+
+void menu()
+{
+	char pilih, ulang;
+	int data;
+	
+	
+}
