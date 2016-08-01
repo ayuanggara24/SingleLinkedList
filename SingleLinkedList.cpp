@@ -14,3 +14,6 @@ struct node {
 
 node* head;
 node* tail;
+node* curr;
+node* entry;
+node* del;
