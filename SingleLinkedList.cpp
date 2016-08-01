@@ -64,5 +64,8 @@ void hapus()
 {
 	int simpan;
 	if(head==NULL)
+	{
+		cout<<"\nLinked list kosong, pengahapusan tidak dapat dilakukan"<<endl;
+	}
 	
 }
