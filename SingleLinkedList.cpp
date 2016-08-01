@@ -10,3 +10,7 @@ struct node {
 	int data;
 	node* next; // untuk menghubungkan dengan node lain,tipe data dibuat seperti aturan penggunaan pointer
 };
+
+
+node* head;
+node* tail;
