@@ -28,4 +28,10 @@ void input (int dt)
 	entry = (node* )malloc(sizeof(node));
 	entry-> data = dt;
 	entry-> next = NULL;
+	if (head==NULL)
+	{
+		head = entry;
+		tail = head;
+	}
+	
 }
