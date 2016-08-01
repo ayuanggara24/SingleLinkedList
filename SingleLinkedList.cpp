@@ -49,6 +49,11 @@ void cetak()
 	{
 		cout<<"\nData yang ada dalam linked list adalah " <<endl;
 		cout<<setw(6);
+		while(curr!=NULL)
+		{
+			cout<<curr->data<<"->";
+			curr = curr->next;
+		}
 		
 	}
 	
