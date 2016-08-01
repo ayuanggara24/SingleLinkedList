@@ -54,7 +54,8 @@ void cetak()
 			cout<<curr->data<<"->";
 			curr = curr->next;
 		}
-		
+		cout<<"NULL";
+		cout<<endl;
 	}
 	
 }
