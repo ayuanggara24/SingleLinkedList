@@ -59,3 +59,10 @@ void cetak()
 	}
 	
 }
+
+void hapus()
+{
+	int simpan;
+	if(head==NULL)
+	
+}
