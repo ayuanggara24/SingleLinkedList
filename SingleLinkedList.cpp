@@ -41,3 +41,7 @@ void input (int dt)
 }
 
 void cetak()
+{
+	curr = head;
+
+}
