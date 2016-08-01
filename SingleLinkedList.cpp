@@ -24,3 +24,8 @@ void inisialisasi ()
 }
 
 void input (int dt)
+{
+	entry = (node* )malloc(sizeof(node));
+	entry-> data = dt;
+	entry-> next = NULL;
+}
