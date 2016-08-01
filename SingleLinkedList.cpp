@@ -33,5 +33,9 @@ void input (int dt)
 		head = entry;
 		tail = head;
 	}
-	
+	else
+	{
+		tail->next = entry;
+		tail = entry;
+	}
 }
