@@ -84,5 +84,22 @@ void menu()
 	char pilih, ulang;
 	int data;
 	
-	
+	do
+	{
+		system("cls");
+		cout<<"Single Linked List"<<endl;
+		cout<<"-------------------------------"<<endl;
+      	cout<<"Menu : "<<endl;
+      	cout<<"1. Input data"<<endl;
+      	cout<<"2. Cetak data"<<endl;
+      	cout<<"3. Hapus Data"<<endl;
+      	cout<<"4. Exit"<<endl;
+      	cout<<"Masukkan pilihan Anda : ";
+      	cin>>pilih;
+      	
+      	
+      	}
+      	cout<<"\nKembali ke menu?(y/n)";
+      	cin>>ulang;
+      	}while(ulang=='y' || ulang=='Y');
 }
