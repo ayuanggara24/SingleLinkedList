@@ -45,5 +45,11 @@ void cetak()
 	curr = head;
 	if(head == NULL)
 	cout<<"\nTidak ada data dalam linked list" <<endl;
+	else
+	{
+		cout<<"\nData yang ada dalam linked list adalah " <<endl;
+		cout<<setw(6);
+		
+	}
 	
 }
