@@ -97,7 +97,24 @@ void menu()
       	cout<<"Masukkan pilihan Anda : ";
       	cin>>pilih;
       	
-      	
+      	switch(pilih)
+      	{
+      		case '1' :
+      			cout<<"\nMasukkan data : ";
+            	cin>>data;
+            	input(data);
+           		break;
+      		case '2' :
+            	cetak();
+            	break;
+      		case '3' :
+            	hapus();
+            	break;
+      		case '4' :
+            	exit(0);
+            break;
+      	default :
+            cout<<"\nPilih ulang"<<endl;
       	}
       	cout<<"\nKembali ke menu?(y/n)";
       	cin>>ulang;
