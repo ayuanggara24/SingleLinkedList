@@ -67,5 +67,13 @@ void hapus()
 	{
 		cout<<"\nLinked list kosong, pengahapusan tidak dapat dilakukan"<<endl;
 	}
-	
+	else
+	{
+		simpan = head -> data;
+		cout<<"\Data yang dihapus adalah" <<simpan<<endl;
+		//hapus depan
+		del = head;
+		head = head->next;
+		delete del;
+	}
 }
