@@ -39,3 +39,5 @@ void input (int dt)
 		tail = entry;
 	}
 }
+
+void cetak()
